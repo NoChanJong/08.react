@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import TodoList from './components/TodoList';
@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <Title title={data} />
-      {/* <TodoList todos={data} /> */}
+      <Title title={data.title} />
+      <TodoList todos={data.todos} />
     </div>
   );
 }
